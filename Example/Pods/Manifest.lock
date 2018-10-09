@@ -1,0 +1,16 @@
+PODS:
+  - WSDCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - WSDCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  WSDCategoryKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WSDCategoryKit: ed8d470675ab477796e81ea13c8e606787bb6259
+
+PODFILE CHECKSUM: dfba08c4966006bbf941a68c30337d968ace2168
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,22 @@
+{
+  "name": "WSDCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of WSDCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wsd272535439/WSDCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wsd272535439": "wangsidi@baichebao.com"
+  },
+  "source": {
+    "git": "https://github.com/wsd272535439/WSDCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WSDCategoryKit/Classes/**/*"
+}
