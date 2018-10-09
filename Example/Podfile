@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WSDCategoryKit_Example' do
+  pod 'WSDCategoryKit', :path => '../'
+
+  target 'WSDCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
