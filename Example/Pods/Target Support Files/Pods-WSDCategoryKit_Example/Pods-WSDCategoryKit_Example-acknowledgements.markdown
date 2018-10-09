@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## HandyFrame
+
+
+
 ## WSDCategoryKit
 
 Copyright (c) 2018 wsd272535439 <wangsidi@baichebao.com>

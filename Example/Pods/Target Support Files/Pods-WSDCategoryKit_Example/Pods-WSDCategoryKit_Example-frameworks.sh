@@ -143,9 +143,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WSDCategoryKit/WSDCategoryKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WSDCategoryKit/WSDCategoryKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

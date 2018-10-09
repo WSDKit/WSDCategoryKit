@@ -337,10 +337,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WSDCategoryKit_Example/Pods-WSDCategoryKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework",
 				"${BUILT_PRODUCTS_DIR}/WSDCategoryKit/WSDCategoryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyFrame.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WSDCategoryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

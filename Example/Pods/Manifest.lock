@@ -1,15 +1,22 @@
 PODS:
-  - WSDCategoryKit (0.1.0)
+  - HandyFrame (1.2.0)
+  - WSDCategoryKit (0.2.0):
+    - HandyFrame
 
 DEPENDENCIES:
   - WSDCategoryKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HandyFrame
 
 EXTERNAL SOURCES:
   WSDCategoryKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WSDCategoryKit: b25e1bffc0ac4378d087ae504da76f6d93e2eebf
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
+  WSDCategoryKit: 14ab2b8532a9d96674f6428fc0e0fc815410ddb9
 
 PODFILE CHECKSUM: dfba08c4966006bbf941a68c30337d968ace2168
 
